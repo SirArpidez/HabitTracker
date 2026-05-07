@@ -13,14 +13,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourname.habittracker"
+      "bundleIdentifier": "com.sirarpidez.habittracker"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.yourname.habittracker"
+      "package": "com.sirarpidez.habittracker"
     },
     "plugins": [
       [
@@ -30,6 +30,12 @@
           "color": "#ffffff"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ef6207e6-c882-464d-b0c6-137a338c9c7a"
+      }
+    },
+    "owner": "arpidez"
   }
 }
